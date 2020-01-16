@@ -4,7 +4,6 @@ function getFact(n){
 	for(let i = 1; i <= n; i++){
 		result *= i;
 	}
-
 	return result;
 }
 
@@ -20,7 +19,6 @@ function getFib(n){
 		a = b;
 		b = c;
 	}
-
 	return c;
 }
 
@@ -33,9 +31,7 @@ function writeResult(id, id_out, func){
 		document.getElementById(id_out).innerHTML = '<p>'+func(val)+'</p>';
 }
 
-//вывод факториала 
 document.getElementById('fact-btn').onclick = function(){ writeResult(id='fact', id_out='factOut', func=getFact) };
 
-//вывод числа фибоначчи 
 document.getElementById('fib-btn').onclick = function(){ writeResult(id='fib', id_out='fibOut', func=getFib) };
 
