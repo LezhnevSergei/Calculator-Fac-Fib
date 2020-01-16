@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Calculator</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-md-offset-3">
+					<h1>Калькулятор чисел фибоначчи и факториала</h1>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-5 col-sm-offset-1">
+				<h2>Вычислить факториал</h2>
+				<form class="form-inline">
+					<div class="form-group">
+						<div class="input-group">
+							<div class="input-group-addon">Factorial</div>
+							<input type="text" class="form-control" id="fact" placeholder="от" size="4">
+						</div>
+					</div>
+					<button type="button" class="btn btn-primary" id="fact-btn">Вычислить</button>
+					<div id="factOut" class="result"><p>Результат</p></div>
+				</form>
+			</div>
+
+			<div class="col-sm-5  col-sm-offset-1">
+				<h2>Вычислитель числа фибоначчи</h2>
+				<form class="form-inline">
+					<div class="form-group">
+						<div class="input-group">
+							<div class="input-group-addon">Fibonacci</div>
+							<input type="text" class="form-control" id="fib" placeholder="от" size="4">
+						</div>
+					</div>
+					<button type="button" class="btn btn-primary" id="fib-btn">Вычислить</button>
+					<div id="fibOut" class="result"><p>Результат</p></div>
+				</form>
+			</div>	
+		</div>
+	</div>
+	
+
+	<script src="js/script.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

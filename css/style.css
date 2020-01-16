@@ -1,0 +1,32 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+header{
+	margin-bottom: 50px;
+	background-color: #708090;
+}
+
+header h1{
+	padding:10px;
+	margin: 15px;
+	border: 2px solid #000;
+	background-color: #FFDEAD;
+}
+
+.result{
+	
+	position: relative;
+	right: -90px;
+	margin-top: 30px;
+	font-size: 25px;
+	width: 153px;
+	height: 45px;
+	
+}
+.result p{
+	text-align: center;
+	font-weight: bold;
+
+}
